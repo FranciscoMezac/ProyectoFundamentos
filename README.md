@@ -1,7 +1,6 @@
 # miprimerrepositorio1
 probando weas
 pepepepepepe
-XDXDXDX
 XIODJZOJZOCJOZ
 ADISAJHSAICHIUSAHCIA
-OLAOLAOLAOLA
+
