@@ -1,0 +1,45 @@
+class Product
+{
+    ##atributos##
+    Product_Name="" #nombre del producto
+    Buy_Price=0# precio de compra
+    Sell_Price=0# precio de venta
+    Product_Stock=0#stock del producto
+    Elaboration_Date=0#Fecha de elaboracion
+    Expiration_Date=0#Fecha de expiracion
+    Bar_Code=0#codigo de barras
+    Critical_Stock=0#Stock critico
+
+    ##fin del atributo##
+
+    ##metodos##
+    Price_Discount=0#descuento del producto
+    Expiration_Date_Warning=0#Aviso del producto expirado
+
+    ##fin metodos##
+
+    
+
+
+}
+
+Class Workers
+{
+    ##atributos##
+    Name=""#Nombre
+    Run=0#rut
+    Sex=""#sexo
+    Country=""#pais
+    Salary=0#Salario
+    Work_Area=""#area de trabajo
+    Work_Hours=0#horas de trabajo
+
+    ##fin atributos##
+    ##metodos##
+    Extra_Hours=0#horas extra
+    Work_Area_Change=0#Cambio de area de trabajo
+
+    ##fin metodos##
+
+
+}
