@@ -1,0 +1,101 @@
+class Fraction():
+    ##Atributo##
+    numerator=0
+    denominator=1
+    ##Fin atributo##
+
+    ##Las clases vienen con los contructores que vienen creando los objetos cada vez## 
+    ##que se crea una clase se debe tener un constructor##
+
+    ##Metodo magico es el __init__ lo usaremos siempre##
+
+    ##Metodos##
+
+    def __init__(self,numerator,denominator):
+        self.numerator=numerator
+        self.denominator=denominator
+
+    def print(self):
+        print(self.numerator,"/",self.
+        denominator)
+
+    ##Multiplicacion##
+
+    def multiply(self,def_multiplication):
+        result_numerator=self.numerator*def_multiplication.numerator
+        result_denominator=self.denominator*def_multiplication.denominator
+        r=Fraction(result_numerator,result_denominator)
+        print("Resultado multiplicacion de las fracciones es:", result_numerator,"/",result_denominator)
+        return r
+
+    ##Fin multiplicacion##
+
+    ##Divicion##
+    def division(self,def_division):
+        result_numerator=self.numerator*def_division.denominator
+        result_denominator=self.denominator*def_division.numerator
+        result_division=Fraction(result_numerator,result_denominator)
+        print("Resultado division de las fracciones es:", result_numerator,"/",result_denominator)
+        return result_division
+
+    ##Fin division##
+
+    
+    ##Suma##
+    def suma(self,def_suma):
+        multiplication_one=self.denominator*numerator_two
+        multiplication_two=self.numerator*denominator_two
+        result_denominator=self.denominator*def_suma.denominator
+        result=multiplication_one+multiplication_two
+        result_suma=Fraction(result,result_denominator)
+        print("Resultado suma de las fracciones es:", result,"/",result_denominator)
+        return result_suma
+
+    ##Fin suma##
+
+
+    ##Resta##
+
+    def resta(self,def_resta):
+        multiplication_one=self.denominator*numerator_two
+        multiplication_two=self.numerator*denominator_two
+        result_denominator=self.denominator*def_resta.denominator
+        result=multiplication_one-multiplication_two
+        result_suma=Fraction(result,result_denominator)
+        print("Resultado resta de las fracciones es:", result,"/",result_denominator)
+        return result_suma
+
+    ##Fin resta##
+
+
+
+
+print("ingrese el primer numerador")
+numerator_one=int(input())
+print("ingrese el segundo denominador")
+denominator_one=int(input())
+result_one=Fraction (numerator_one,denominator_one)
+
+Fraction_one=Fraction(numerator_one,denominator_one)
+
+
+print("ingrese el segundo numerador")
+numerator_two=int(input())
+print("ingrese el segundo denominador")
+denominator_two=int(input())
+result_two=Fraction (numerator_two,denominator_two)
+
+Fraction_two=Fraction(numerator_two,denominator_two)
+
+
+r=Fraction_one.multiply(Fraction_two)
+r.print
+
+result_division=Fraction_one.division(Fraction_two)
+result_division.print
+
+result_suma=Fraction_one.suma(Fraction_two)
+result_suma.print
+
+result_resta=Fraction_one.resta(Fraction_two)
+result_resta.print
