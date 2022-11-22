@@ -1,0 +1,41 @@
+class Profile:
+    ## atributos##
+    # username=""
+    # email=""
+    # password=""
+
+    ## fin atributos##
+    def __init__(self, id, username, email, password, status="online"):
+        self.username = username
+        self.email = email
+        self.password = password
+        self.id = id
+        self.status = status
+
+    def print(self):
+        print("el id es: ", self.id)
+        print("el username: ", self.username)
+        print("el email: ", self.email)
+        print("la contraseña: ", self.password)
+        print("el status: ", self.status)
+    def ingresar(self):
+        self.id = int(input("ingrese el id: "))
+        self.username = str(input("ingrese el usuario: "))
+        self.email = str(input("ingrese el email: "))
+        self.password = str(input("ingrese la contraseña: "))
+        
+        
+        OTRO CODIGO
+        
+        from tareaa4 import Profile
+
+
+def main():
+
+    profile1 = Profile(1, "username", "email", "password")
+
+    profile1.print()
+    profile1.ingresar()
+
+
+main()
