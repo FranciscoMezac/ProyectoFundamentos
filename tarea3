@@ -1,0 +1,83 @@
+class Vector:
+    x=0
+    y=0
+    z=0
+
+    def __init__(self,x,y,z):
+        self.x=x
+        self.y=y
+        self.z=z
+
+    def print(self):
+        print(self.x,",",self.y,",",self.z)
+
+    def addition(self,def_Addition):
+        Result_Addition_x=self.x+self.x
+        Result_Addition_y=self.y+self.y
+        Result_Addition_z=self.z+self.z
+        Result_Addition=Vector(Result_Addition_x,Result_Addition_y,Result_Addition_z)
+        print("el resultado de las sumas es:  ",Result_Addition_x,",",Result_Addition_y,",",Result_Addition_z)
+        return Result_Addition
+
+
+    ##RESTA
+    def rest(self,def_Rest):
+        Result_Rest_x=self.x-self.x
+        Result_Rest_y=self.y-self.y
+        Result_Rest_z=self.z-self.z
+        Result_Rest=Vector(Result_Rest_x,Result_Rest_y,Result_Rest_z)
+        print("el resultado de las restas es:  ",Result_Rest_x,",",Result_Rest_y,",",Result_Rest_z)
+        return Result_Rest
+
+    ##MULTPLICACION
+    def multiplication(self,def_Multiplication):
+
+        Result_Multiplication_x=self.x*self.x
+        Result_Multiplication_y=self.y*self.y
+        Result_Multiplication_z=self.z*self.z
+        Result_Multiplication=Vector(Result_Multiplication_x,Result_Multiplication_y,Result_Multiplication_z)
+        print("el resultado de las multiplicaciones es:  ",Result_Multiplication_x,",",Result_Multiplication_y,",",Result_Multiplication_z)
+        return Result_Multiplication
+    def division(self,def_division):
+        Result_Division_x=self.x/self.x
+        Result_Division_y=self.y/self.y
+        Result_Division_z=self.z/self.z
+        Result_Division=Vector(Result_Division_x,Result_Division_y,Result_Division_z)
+        print("el resultado de las divisiones es es:  ",Result_Division_x,",",Result_Division_y,",",Result_Division_z)
+        return Result_Division
+
+    
+
+print("ingrese el primer vector") 
+
+x=int(input("ingrese x: "))
+y=int(input("ingrese y: "))
+z=int(input("ingrese z: "))
+
+Result_Vector_Addition=Vector(x,y,z)
+print("ingrese el segundo vector")
+x=int(input("ingrese x: "))
+y=int(input("ingrese y: "))
+z=int(input("ingrese z: "))
+
+Result_Vector2_Addition=Vector(x,y,z)
+
+
+Result_Addition=Result_Vector_Addition.addition(Result_Vector2_Addition)
+Result_Addition.print
+
+Result_Vector_Rest=Vector(x,y,z)
+Result_Vector2_Rest=Vector(x,y,z)
+Result_Rest=Result_Vector_Rest.rest(Result_Vector2_Rest)
+Result_Rest.print
+
+
+Result_Vector_Multiplication=Vector(x,y,z)
+Result_Vector2_Multiplication=Vector(x,y,z)
+Result_Multiplication=Result_Vector_Multiplication.multiplication(Result_Vector2_Multiplication)
+Result_Multiplication.print
+
+Result_Vector_Division=Vector(x,y,z)
+Result_Vector2_Division=Vector(x,y,z)
+Result_Division=Result_Vector_Division.division(Result_Vector2_Division)
+Result_Division.print
