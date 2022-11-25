@@ -1,5 +1,2 @@
 # miprimerrepositorio1
-pepepepepepe
-XIODJZOJZOCJOZ
-ADISAJHSAICHIUSAHCIA
-
+hola
