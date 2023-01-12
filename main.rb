@@ -122,8 +122,8 @@ require_relative 'Characters'
 
 
       puts "\nINTRUCCIONES:"
-      puts "Es un juego de turno con Characters con atributos unicos, decida las mejores opciones para ganar\n"
-      puts "Estadisticas de Characters a elegir"
+      puts "Es un juego de turno con Personajes con atributos unicos, decida las mejores opciones para ganar\n"
+      puts "Estadisticas de Personajes a elegir"
       puts "\nTank"
       tanks
       puts "\nAssasin"
@@ -133,7 +133,7 @@ require_relative 'Characters'
       puts "\nHealer"
       healers
       puts "\n"
-      puts "player 1"
+      puts "Jugador 1"
       puts "Eliga una opcion: "
       puts "\n1.- Tank"
       puts "\n2.- Assasin"
